@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %} NAS-Home {% endblock %}
+
+{% block content %}
+
+    <b>Folders:</b> <br>
+    {% for folder in folders %}
+        <a href="{{url_for('nas_home', nas_path=(current_path ~ '/' ~ folder))}}">{{folder}}</a> <br>
+    {% endfor %}
+
+    <hr>
+
+    <b>Files:</b>
+    {% for file in files %}
+        <a href="{{url_for('nas_home', nas_path=(current_path ~ '/' ~ folder))}}">{{file}}</a>
+    {% endfor %}
+{% endblock %}
