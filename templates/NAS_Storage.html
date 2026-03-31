@@ -4,15 +4,34 @@
 
 {% block content %}
 
+    <b>Upload Files:</b>
+    <form action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
+        <input type="hidden" name="current_folder_path" value="{{current_folder_path}}">
+        <input type="hidden" name="files_in_folder" value="{{files}}">
+        <input type="file" name="files" multiple>
+        <input type="submit" value="Uplaod">
+    </form>
+
+    <hr> <hr>
+
     <b>Folders:</b> <br>
     {% for folder in folders %}
-        <a href="{{url_for('nas_home', nas_path=(current_path ~ '/' ~ folder))}}">{{folder}}</a> <br>
+        <a href="{{url_for('nas_home', nas_folder_path=(current_folder_path ~ '/' ~ folder))}}">{{folder}}</a> <br>
     {% endfor %}
 
     <hr>
 
-    <b>Files:</b>
+    <b>Files:</b> <br>
     {% for file in files %}
-        <a href="{{url_for('nas_home', nas_path=(current_path ~ '/' ~ folder))}}">{{file}}</a>
+        {% if thumbnail == "images" and file.endswith((".jpg", ".png", ".jpeg", ".webp")) %}
+            <a href="{{url_for('download', nas_file_path=(current_folder_path ~ '/' ~ file))}}">
+                <img src="{{url_for('download', nas_file_path=(current_folder_path ~ '/' ~ file))}}" alt="unable to render: {{file}}" width="150px">
+            </a>
+        {% elif thumbnail == "videos" and file.endswith((".mp4", ".mkv", ".mov", ".webm")) %}
+            <video src="{{url_for('download', nas_file_path=(current_folder_path ~ '/' ~ file))}}" width="150px" controls></video>
+        {% else %}
+            <a href="{{url_for('download', nas_file_path=(current_folder_path ~ '/' ~ file))}}">{{file}}</a>
+        {% endif %}
     {% endfor %}
 {% endblock %}

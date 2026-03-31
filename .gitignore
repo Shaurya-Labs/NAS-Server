@@ -1,1 +1,6 @@
 __pycache__/
+config/config.json
+test.py
+instance/
+migrations/
+NAS_Files/*/
