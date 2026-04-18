@@ -4,3 +4,4 @@ test.py
 instance/
 migrations/
 NAS_Files/*/
+venv/

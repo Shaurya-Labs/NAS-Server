@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#181818 40%, #252525 80%);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: rgb(165, 165, 165);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 430px;
+    width: 335px;
+    border-radius: 20px;
+
+    background: radial-gradient(
+        circle at top left,
+        rgba(255, 255, 255, 0.08) 0%,
+        rgba(5, 5, 5, 0.445) 95%
+    );
+    box-shadow:
+        -1px -1px 1px rgba(255, 255, 255, 0.04),
+        10px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    gap: 15px;
+}
+
+input {
+    background-color: #141414;
+    height: 50px;
+    width: 275px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 12px;
+    font-size: 18px;
+    color: white;
+}
+
+#submit_button {
+    height: 40px;
+    width: 122px;
+    color: white;
+    background-color: #10A1FF;
+    margin-top: 15px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #141414 inset !important;
+    -webkit-text-fill-color: white !important;
+}
+
+#submit_button:hover {
+    background-color: #109fffc9;
+}
+
+#submit_button:active {
+    background-color: #10A1FF;
+}
