@@ -26,6 +26,34 @@
         </div>
     </div>
 
+    <!-- Image viewer modal -->
+    <div id="image_viewer_modal" class="modal">
+        <div id="image_viewer_container">
+            <div id="image_options_and_info">
+                <div></div>     <!-- space for structuring the top bar grid in the image viewer -->
+                <div id="image_name"></div>
+                <div id="image_download_btn">
+                    <img src="{{url_for('static', filename='images/download_icon.png')}}" alt="download_icon.png" height="32px" width="32px">
+                </div>
+            </div>
+            <div id="image_container"></div>
+        </div>
+    </div>
+
+    <!-- Video player modal -->
+    <div id="video_player_modal" class="modal">
+        <div id="video_player_container">
+            <div id="video_options_and_info">
+                <div></div>     <!-- space for structuring the top bar grid in the image viewer -->
+                <div id="video_name"></div>
+                <div id="video_download_btn">
+                    <img src="{{url_for('static', filename='images/download_icon.png')}}" alt="download_icon.png" height="32px" width="32px">
+                </div>
+            </div>
+            <div id="video_player"></div>
+        </div>
+    </div>
+
     <div id="filemanager_ui">
         <!-- TASKBAR -->
         <div id="taskbar">
@@ -65,10 +93,9 @@
                     <form action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data" id="upload_container">
                         <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
                         <input type="hidden" name="current_nas_folder_path" value="{{current_nas_folder_path}}">
-                        <input type="hidden" name="files_in_folder" value="{{files}}">
 
-                        <label class="upload_btn">
-                            <input type="file" name="files" multiple hidden>
+                        <label class="upload_btn" id="choose_files">
+                            <input type="file" id="upload_btn_input" name="files" multiple hidden>
                             <img src="{{url_for('static', filename='images/choose_files_icon.png')}}" alt="choose_files_icon.png" height="40px" width="40px">
                             <span>Choose Files</span>
                         </label>
@@ -79,6 +106,11 @@
                             <span>Upload</span>
                         </label>
                     </form>
+                </div>
+
+                <div id="chosen_files">
+                    <div id="chosen_file_names"></div>
+                    <div id="horizontal_divider"></div>
                 </div>
 
                 <div id="folders_container">
@@ -110,18 +142,26 @@
                 <div id = "{{ 'img_or_vid_container' if thumbnail == 'images' or thumbnail == 'videos' else 'files_list_container' }}">
                     {% for file in files %}
                         {% if thumbnail == "images" and file.endswith((".jpg", ".png", ".jpeg", ".webp")) %}
-                            <div class="img_btn" data-nas-file-path="{{current_nas_folder_path ~ '/' ~ file}}">
+                            <div class="image_btn" data-nas-file-path="{{current_nas_folder_path ~ '/' ~ file}}">
                                 <img src="{{url_for('thumbnail', nas_file_path=(current_nas_folder_path ~ '/' ~ file))}}" alt="unable to render: {{file}}">
                             </div>
                             
                         {% elif thumbnail == "videos" and file.endswith((".mp4", ".mkv", ".mov", ".webm")) %}
                             <div class="media_btn" data-nas-file-path="{{current_nas_folder_path ~ '/' ~ file}}">
-                                <video src="{{url_for('media', nas_file_path=(current_nas_folder_path ~ '/' ~ file))}}" controls class="video_file"></video>
+                                <!-- <video src="{{url_for('media', nas_file_path=(current_nas_folder_path ~ '/' ~ file))}}" controls class="video_file"></video> -->
+                                <!-- <img src="{{url_for('thumbnail', nas_file_path=(current_nas_folder_path ~ '/' ~ file))}}"
+                                class="video_thumbnail"
+                                alt="unable to render: {{file}}.jpg"
+                                onerror="this.src='/static/images/folder_icon.png'; startThumbnailPoll(this);"> -->
+                                <span class="video_thumbnail_loading"        
+                                      data-thumbnail-url="{{url_for('thumbnail', nas_file_path=(current_nas_folder_path ~ '/' ~ file))}}">
+                                      Loading...
+                                </span>
                                 <span>{{file}}</span>
                             </div>
 
                         {% else %}
-                            <button 
+                            <button
                                 class="file_btn"
                                 data-nas-file-path="{{current_nas_folder_path ~ '/' ~ file}}">
                                 {{file}}
@@ -129,6 +169,14 @@
                         {% endif %}
                     {% endfor %}
                 </div>
+
+                {% if display_nav_btns %}
+                <div id="file_nav_btns">
+                    <div id="previous_btn">Pre</div>
+                    <div id="next_btn">Next</div>
+                </div>
+                {% endif %}
+
             </div>
         </div>
     </div>
