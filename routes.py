@@ -176,8 +176,7 @@ def register_routes(app: Flask, bcrypt: Bcrypt):
             logging.debug(f"Saving file: {filename} to path: {upload_folder_path}")
             file.save(upload_folder_path / filename)
             logging.debug(f"File: {filename} saved successfully to path: {upload_folder_path}")
-        return redirect(url_for("nas_home", nas_folder_path=current_nas_folder_path))
-
+        return "Files uploaded successfully!", 200
 
     @app.route("/delete", methods=["POST"])
     @login_required

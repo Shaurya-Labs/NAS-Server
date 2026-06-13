@@ -1,3 +1,6 @@
+const csrfToken = document.querySelector("meta[name='csrf_token']").content;
+const currentNasFolderPath = document.querySelector("meta[name='current_nas_folder_path']").content;
+
 // Create folder button functionality
 const createFolderBtn = document.getElementById("create_folder_btn");
 const closeNewFolderModal = document.getElementById("close_new_folder_modal");
@@ -33,7 +36,6 @@ filesListContainer.addEventListener("click", (event) => selectFilesHandler(event
 
 // Deleting files
 const deleteBtn = document.getElementById("delete_btn");
-const csrfToken = document.querySelector("meta[name='csrf_token']").content;
 
 async function postSelectedFiles(selectedFiles) {
     const response = await fetch("/delete", {
@@ -58,21 +60,6 @@ deleteBtn.addEventListener("click", () => {
         deleteBtnHandler(selectedFiles)
     }
 });
-
-// Viewing chosen file names
-function viewChoosenFileNamesHandler() {
-    const uploadBtnInput = document.getElementById("upload_btn_input");
-    const chosenFileNames = document.getElementById("chosen_file_names");
-    chosenFileNames.innerHTML = '';
-
-    for (const file of uploadBtnInput.files) {
-        const span = document.createElement("span");
-        span.textContent = file.name;
-        chosenFileNames.appendChild(span)
-    }
-}
-const chooseFiles = document.getElementById("choose_files");
-chooseFiles.addEventListener("change", viewChoosenFileNamesHandler);
 
 // Downloading files
 /**
@@ -110,9 +97,80 @@ const downloadBtn = document.getElementById("download_btn");
 
 downloadBtn.addEventListener("click", () => {
     if (selectedFiles.length >= 1) {
-        downloadBtnHandler(selectedFiles)
+        downloadBtnHandler(selectedFiles);
     }
 });
+
+// Uploading files
+const filesToUpload = document.getElementById("files-to-upload");
+const filesUploadBtn = document.getElementById("files-upload-btn");
+const filesUploadProgressBar = document.getElementById("files-upload-progress-bar");
+
+filesUploadBtn.addEventListener("click", () => {
+
+    if (filesToUpload.files.length === 0) {
+        return;
+    }
+
+    const payload = new FormData();
+    payload.append("csrf_token", csrfToken);
+    payload.append("current_nas_folder_path", currentNasFolderPath);
+
+    for (const file of filesToUpload.files) {
+        payload.append("files", file);      // Adding files pointers to payload object
+    }
+
+    const request = new XMLHttpRequest();
+    request.open("POST", "/upload");
+
+    let lastLoaded = 0;
+    let lastTime = performance.now();
+    const uploadSpeedmoter = document.getElementById("upload-speedometer");
+    request.upload.addEventListener("progress", (event) => {
+        const currentTime = performance.now();
+
+        const bytesSent = event.loaded - lastLoaded;
+        const timePassedMs = currentTime - lastTime;
+
+        if (timePassedMs != 0) {
+            const speedMBps = (bytesSent / timePassedMs) / 1024;
+            uploadSpeedmoter.innerHTML = `${speedMBps} MB/s`
+        }
+
+        lastLoaded = event.loaded;
+        lastTime = currentTime;
+
+        const percentComplete = (event.loaded / event.total)*100;
+        filesUploadProgressBar.setAttribute("value", percentComplete);
+        filesUploadProgressBar.nextElementSibling.innerHTML = `${percentComplete}%`;
+    });
+
+    request.addEventListener("load", () => {        // If files are saved successfully on server, reload the window
+        if (request.status === 200) {
+            window.location.reload();
+        }
+    });
+
+    // Only display progress bar when files are chosen and upload button is clicked
+    const filesUploadProgressBarContainer = document.getElementById("files-upload-progress-bar-container");
+    filesUploadProgressBarContainer.style.display = "flex";
+
+    request.send(payload);
+});
+
+// Viewing chosen file names
+function viewChoosenFileNamesHandler() {
+    const chosenFileNames = document.getElementById("chosen_file_names");
+    chosenFileNames.innerHTML = '';
+
+    for (const file of filesToUpload.files) {
+        const span = document.createElement("span");
+        span.textContent = file.name;
+        chosenFileNames.appendChild(span)
+    }
+}
+const chooseFiles = document.getElementById("choose_files");
+chooseFiles.addEventListener("change", viewChoosenFileNamesHandler);
 
 // Image viewer modal
 const imgViewerModal = document.getElementById("image_viewer_modal");

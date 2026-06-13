@@ -3,6 +3,8 @@
 {% block title %} NAS-Home {% endblock %}
 {% block sources %}
     <meta name="csrf_token" content="{{csrf_token()}}">
+    <meta name="current_nas_folder_path" content="{{current_nas_folder_path}}">
+
     <link rel="stylesheet" href="{{url_for('static', filename='CSS/NAS_Storage.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script defer src="{{ url_for('static', filename='JS/NAS_Storage.js') }}"></script>
@@ -90,22 +92,26 @@
             <!-- SIDEBAR -->
             <div id="side_bar">
                 <div id="upload">
-                    <form action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data" id="upload_container">
-                        <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
+                    <div id="upload_container">
                         <input type="hidden" name="current_nas_folder_path" value="{{current_nas_folder_path}}">
 
                         <label class="upload_btn" id="choose_files">
-                            <input type="file" id="upload_btn_input" name="files" multiple hidden>
+                            <input id="files-to-upload" type="file" name="files" multiple hidden>
                             <img src="{{url_for('static', filename='images/choose_files_icon.png')}}" alt="choose_files_icon.png" height="40px" width="40px">
                             <span>Choose Files</span>
                         </label>
                         
-                        <label class="upload_btn">
-                            <input type="submit" value="Upload" hidden>
+                        <label id="files-upload-btn" class="upload_btn">
                             <img src="{{url_for('static', filename='images/upload_icon.png')}}" alt="upload_icon.png" height="40px" width="40px">
                             <span>Upload</span>
                         </label>
-                    </form>
+
+                        <div id="files-upload-progress-bar-container">
+                            <progress id="files-upload-progress-bar" value="0" max="100"></progress>
+                            <label for="files-upload-progress-bar">0%</label>
+                            <label id="upload-speedometer">0.00 MB/s</label>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="chosen_files">

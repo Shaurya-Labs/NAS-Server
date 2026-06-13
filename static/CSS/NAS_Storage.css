@@ -306,6 +306,13 @@ body {
     padding: 0 20px;
 }
 
+#files-upload-progress-bar-container {
+    display: none;        /* should be "flex" when not hidden(JS changes it dynamically to only make the progress bar visible when upload button is clicked) */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #horizontal_divider {
     border-bottom: 1px solid rgba(255, 255, 255, 0.568);
     width: 55%;
