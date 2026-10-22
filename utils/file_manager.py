@@ -7,18 +7,35 @@ import logging
 
 def make_default_structure(path: str, folders: list[str]=["Images", "Videos", "Documents", "Temp"]) -> None:
     """
-    This function creates a default structure of folders in the Home folder of the storage medium and also creates a temp folder for
-    download zip files, in the parent folder of Home folder.
-    'path' parameter is the path of the folder one level below the Home directory, if Home directory exists.
+    This function creates a default structure of folders in the Home folder of the storage medium, creates a temp folder for
+    download zip files, in the parent folder of Home folder and creates other essential internal working files if they do not
+    already exist. 'path' parameter is the path of the folder one level below the Home directory, if Home directory exists.
     folders parameter is the list of folders to be created inside the NAS Home folder.
     """
-    
+
+    # Default structure for the user Files stored in the server
     home_path = os.path.join(path, "Home")
     temp_path = os.path.join(path, "temp")
     os.makedirs(home_path, exist_ok=True)
     os.makedirs(temp_path, exist_ok=True)
     for folder in folders:
         os.makedirs(os.path.join(home_path, folder), exist_ok=True)
+
+    # Default structure for the internal code's files
+
+    auth_dir_path = (Path(__file__).parents[1] / "auth").resolve()
+    failed_login_attempts_path = auth_dir_path / "failed_login_attempts.json"
+    timed_out_ips_path = auth_dir_path / "timed_out_ips.json"
+
+    if not os.path.exists(failed_login_attempts_path):
+        logging.info("File Not Found: failed_login.attempts.json not found, creating the file...")
+        failed_login_attempts_path.write_text("{}")
+        logging.info("failed_login_attempts.json file created successfully")
+
+    if not os.path.exists(timed_out_ips_path):
+        logging.info("File Not Found: timed_out_ips.json not found, creating the file...")
+        timed_out_ips_path.write_text("{}")
+        logging.info("timed_out_ips.json file created successfully")
 
 def get_files_and_folder_structure(path: str) -> tuple[list[str], list[str], dict[str, float]]:
     """

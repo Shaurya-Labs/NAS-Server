@@ -1,672 +1,117 @@
-[10-06-2026 12:11:15] INFO     [System] (run.py) -> Creating flask application
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> config.json read successfully
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Initializing flask login manager
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> flask login manager initialized successfully
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Registering routes in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
-[10-06-2026 12:11:15] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
-[10-06-2026 12:11:15] INFO     [System] (run.py) -> flask application created successfully
-[10-06-2026 12:11:15] INFO     [System] (run.py) -> Starting Server
-[10-06-2026 12:11:16] INFO     [System] (run.py) -> Creating flask application
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> config.json read successfully
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Initializing flask login manager
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> flask login manager initialized successfully
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Registering routes in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
-[10-06-2026 12:11:16] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
-[10-06-2026 12:11:16] INFO     [System] (run.py) -> flask application created successfully
-[10-06-2026 12:11:16] INFO     [System] (run.py) -> Starting Server
-[10-06-2026 12:11:16] WARNING  [System] (_internal.py) ->  * Debugger is active!
-[10-06-2026 12:11:19] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:11:19] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:11:19] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:11:19] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:11:19] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-2026-02-14 14-32-13.mkv
-2026-02-23 19-48-09.mkv
-Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4
-Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4
-Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4
-Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4
-sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv
-The Living Tombstone - Join Us for a Bite Remix.mp4
-[10-06-2026 12:11:19] DEBUG    [Shaurya] (thumbnails.py) -> Starting C++ thumbnail generator python thread
-[10-06-2026 12:11:19] DEBUG    [Shaurya] (thumbnails.py) -> C++ thumbnail generator python thread started
-[10-06-2026 12:11:19] INFO     [Shaurya] (thumbnails.py) -> Thumbnail generation successfully handed off to background worker thread.
-[10-06-2026 12:11:20] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-14 14-32-13.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:22] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:22] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-14 14-32-13.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:24] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:24] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-14 14-32-13.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:26] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-14 14-32-13.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-14 14-32-13.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:30] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-14 14-32-13.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:32] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:32] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:34] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:34] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:34] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:34] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:11:36] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:36] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:36] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:36] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:36] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:36] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:36] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:36] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:36] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:36] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:36] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:36] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:37] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:11:38] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:38] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:38] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:38] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:38] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:38] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:38] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:38] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:38] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:38] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:38] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:38] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:11:39] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:39] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:40] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:40] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:40] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:40] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:40] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:40] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:40] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:40] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:41] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:41] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:42] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:42] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:42] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:42] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:42] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:42] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:43] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:43] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:11:44] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:44] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:44] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:11:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:45] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:46] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:11:46] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:11:46] INFO     [Shaurya] (thumbnails.py) -> C++ binary finished processing. Thumbnails successfully saved to: C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\thumbnails
-[10-06-2026 12:11:46] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:09] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:18:09] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:18:09] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:18:09] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:18:09] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-
-[10-06-2026 12:18:09] DEBUG    [Shaurya] (thumbnails.py) -> All thumbnails are already generated, no need to start C++ thumnail generator python thread
-[10-06-2026 12:18:09] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:18:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:18:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:18:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:18:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:18:17] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:18:23] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:18:23] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:18:23] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:18:23] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:18:23] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-
-[10-06-2026 12:18:23] DEBUG    [Shaurya] (thumbnails.py) -> All thumbnails are already generated, no need to start C++ thumnail generator python thread
-[10-06-2026 12:18:23] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:18:26] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:29:05] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:29:05] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:29:05] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:29:05] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:29:05] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-
-[10-06-2026 12:29:05] DEBUG    [Shaurya] (thumbnails.py) -> All thumbnails are already generated, no need to start C++ thumnail generator python thread
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:29:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:29:36] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:29:36] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:29:36] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:29:36] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:29:36] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-
-[10-06-2026 12:29:36] DEBUG    [Shaurya] (thumbnails.py) -> All thumbnails are already generated, no need to start C++ thumnail generator python thread
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:37] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:29:38] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:29:43] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:29:43] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:29:43] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:29:43] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:29:43] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-
-[10-06-2026 12:29:43] DEBUG    [Shaurya] (thumbnails.py) -> All thumbnails are already generated, no need to start C++ thumnail generator python thread
-[10-06-2026 12:29:43] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:29:43] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:29:43] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:29:43] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:29:44] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:30:15] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:30:15] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:30:15] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:30:15] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:30:15] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-2026-02-14 14-32-13.mkv
-2026-02-23 19-48-09.mkv
-Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4
-Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4
-Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4
-Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4
-sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv
-The Living Tombstone - Join Us for a Bite Remix.mp4
-[10-06-2026 12:30:15] DEBUG    [Shaurya] (thumbnails.py) -> Starting C++ thumbnail generator python thread
-[10-06-2026 12:30:15] DEBUG    [Shaurya] (thumbnails.py) -> C++ thumbnail generator python thread started
-[10-06-2026 12:30:15] INFO     [Shaurya] (thumbnails.py) -> Thumbnail generation successfully handed off to background worker thread.
-[10-06-2026 12:30:16] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:30:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:30:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:30:16] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:16] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-14 14-32-13.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:16] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:17] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:17] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:17] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:17] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:17] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:17] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:17] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:17] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:17] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:17] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:30:17] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:19] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:19] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:19] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:19] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:19] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:30:19] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:19] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:30:21] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:21] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:21] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:21] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:21] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:21] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:21] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:21] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:21] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:30:21] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:21] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:22] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:30:23] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:23] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:23] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:23] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:23] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:23] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:23] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:23] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:23] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:23] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:25] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:25] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:25] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:25] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:25] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:25] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:27] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:27] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:30:27] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:27] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:27] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:30:27] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:28] INFO     [Shaurya] (thumbnails.py) -> C++ binary finished processing. Thumbnails successfully saved to: C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\thumbnails
-[10-06-2026 12:30:29] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:29] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:29] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:29] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:39] INFO     [Shaurya] (routes.py) -> Network Hit: GET /media/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:39] INFO     [Shaurya] (routes.py) -> User requested to watch: Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv media directly in their browser.
-[10-06-2026 12:30:40] INFO     [Shaurya] (routes.py) -> Network Hit: GET /media/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:40] INFO     [Shaurya] (routes.py) -> User requested to watch: Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv media directly in their browser.
-[10-06-2026 12:30:40] INFO     [Shaurya] (routes.py) -> Network Hit: GET /media/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:40] INFO     [Shaurya] (routes.py) -> User requested to watch: Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv media directly in their browser.
-[10-06-2026 12:30:40] INFO     [Shaurya] (routes.py) -> Network Hit: GET /media/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:30:40] INFO     [Shaurya] (routes.py) -> User requested to watch: Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv media directly in their browser.
-[10-06-2026 12:30:42] INFO     [Shaurya] (routes.py) -> Network Hit: GET /media/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:30:42] INFO     [Shaurya] (routes.py) -> User requested to watch: Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 media directly in their browser.
-[10-06-2026 12:34:05] INFO     [System] (run.py) -> Creating flask application
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> config.json read successfully
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Initializing flask login manager
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> flask login manager initialized successfully
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Registering routes in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
-[10-06-2026 12:34:05] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
-[10-06-2026 12:34:05] INFO     [System] (run.py) -> flask application created successfully
-[10-06-2026 12:34:05] INFO     [System] (run.py) -> Starting Server
-[10-06-2026 12:34:05] WARNING  [System] (_internal.py) ->  * Debugger is active!
-[10-06-2026 12:34:05] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:34:06] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:34:06] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:34:06] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:34:06] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-
-[10-06-2026 12:34:06] DEBUG    [Shaurya] (thumbnails.py) -> All thumbnails are already generated, no need to start C++ thumnail generator python thread
-[10-06-2026 12:34:06] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:34:06] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:07] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:34:27] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:34:27] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:34:27] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:34:27] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:34:27] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-2026-02-14 14-32-13.mkv
-2026-02-23 19-48-09.mkv
-Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4
-Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4
-Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4
-Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4
-sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv
-The Living Tombstone - Join Us for a Bite Remix.mp4
-[10-06-2026 12:34:27] DEBUG    [Shaurya] (thumbnails.py) -> Starting C++ thumbnail generator python thread
-[10-06-2026 12:34:27] DEBUG    [Shaurya] (thumbnails.py) -> C++ thumbnail generator python thread started
-[10-06-2026 12:34:27] INFO     [Shaurya] (thumbnails.py) -> Thumbnail generation successfully handed off to background worker thread.
-[10-06-2026 12:34:27] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:34:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:34:28] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail 2026-02-23 19-48-09.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:34:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:28] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:29] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:29] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:34:29] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:29] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:29] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:34:29] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:29] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:29] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:34:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:30] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:30] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:34:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:30] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:34:30] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:34:34] INFO     [Shaurya] (thumbnails.py) -> C++ binary finished processing. Thumbnails successfully saved to: C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\thumbnails
-[10-06-2026 12:34:59] INFO     [System] (run.py) -> Creating flask application
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> config.json read successfully
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Initializing flask login manager
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> flask login manager initialized successfully
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Registering routes in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
-[10-06-2026 12:34:59] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
-[10-06-2026 12:34:59] INFO     [System] (run.py) -> flask application created successfully
-[10-06-2026 12:34:59] INFO     [System] (run.py) -> Starting Server
-[10-06-2026 12:34:59] WARNING  [System] (_internal.py) ->  * Debugger is active!
-[10-06-2026 12:35:03] INFO     [System] (run.py) -> Creating flask application
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> config.json read successfully
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Initializing flask login manager
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> flask login manager initialized successfully
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Registering routes in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
-[10-06-2026 12:35:03] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
-[10-06-2026 12:35:03] INFO     [System] (run.py) -> flask application created successfully
-[10-06-2026 12:35:03] INFO     [System] (run.py) -> Starting Server
-[10-06-2026 12:35:03] WARNING  [System] (_internal.py) ->  * Debugger is active!
-[10-06-2026 12:35:07] INFO     [System] (run.py) -> Creating flask application
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> config.json read successfully
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Initializing flask login manager
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> flask login manager initialized successfully
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Registering routes in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
-[10-06-2026 12:35:07] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
-[10-06-2026 12:35:07] INFO     [System] (run.py) -> flask application created successfully
-[10-06-2026 12:35:07] INFO     [System] (run.py) -> Starting Server
-[10-06-2026 12:35:07] WARNING  [System] (_internal.py) ->  * Debugger is active!
-[10-06-2026 12:35:09] INFO     [System] (run.py) -> Creating flask application
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> config.json read successfully
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Initializing flask login manager
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> flask login manager initialized successfully
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Registering routes in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
-[10-06-2026 12:35:09] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
-[10-06-2026 12:35:09] INFO     [System] (run.py) -> flask application created successfully
-[10-06-2026 12:35:09] INFO     [System] (run.py) -> Starting Server
-[10-06-2026 12:35:09] WARNING  [System] (_internal.py) ->  * Debugger is active!
-[10-06-2026 12:35:49] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:35:49] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:35:49] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:35:49] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:35:49] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-
-[10-06-2026 12:35:49] DEBUG    [Shaurya] (thumbnails.py) -> All thumbnails are already generated, no need to start C++ thumnail generator python thread
-[10-06-2026 12:35:49] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:35:50] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:35:50] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:35:50] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:35:50] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:35:50] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:35:50] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:35:51] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:52] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/Videos from IP 127.0.0.1
-[10-06-2026 12:36:52] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home\Videos'
-[10-06-2026 12:36:52] DEBUG    [Shaurya] (routes.py) -> Videos folder access detected, generating videos thumbnails
-[10-06-2026 12:36:52] INFO     [Shaurya] (thumbnails.py) -> Generating thumbnails
-[10-06-2026 12:36:52] DEBUG    [Shaurya] (thumbnails.py) -> Sending files to C++ stdin: 
-2026-02-14 14-32-13.mkv
-2026-02-23 19-48-09.mkv
-Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4
-Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4
-Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4
-Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4
-sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv
-The Living Tombstone - Join Us for a Bite Remix.mp4
-[10-06-2026 12:36:52] DEBUG    [Shaurya] (thumbnails.py) -> Starting C++ thumbnail generator python thread
-[10-06-2026 12:36:52] DEBUG    [Shaurya] (thumbnails.py) -> C++ thumbnail generator python thread started
-[10-06-2026 12:36:52] INFO     [Shaurya] (thumbnails.py) -> Thumbnail generation successfully handed off to background worker thread.
-[10-06-2026 12:36:52] INFO     [Shaurya] (routes.py) -> Network Hit: GET /.well-known/appspecific/com.chrome.devtools.json from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:53] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:36:53] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:53] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:53] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-14 14-32-13.mkv from IP 127.0.0.1
-[10-06-2026 12:36:53] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:36:53] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/2026-02-23 19-48-09.mkv from IP 127.0.0.1
-[10-06-2026 12:36:53] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:55] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:36:55] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:55] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:55] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv.jpg which was NOT FOUND!
-[10-06-2026 12:36:55] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:55] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:55] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:55] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:55] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:56] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:36:56] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 3 Song (Feat. EileMonty & Orko) - Die In A Fire (FNAF3)  - Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:56] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 2 Song - The Living Tombstone (FNAF2).mp4 from IP 127.0.0.1
-[10-06-2026 12:36:57] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:36:57] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:57] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:57] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:57] DEBUG    [Shaurya] (routes.py) -> Server requested for thumbnail The Living Tombstone - Join Us for a Bite Remix.mp4.jpg which was NOT FOUND!
-[10-06-2026 12:36:57] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/sodfujh osdh fhsnf sdij skvbn lkbnviksdbn vpikdsjnv lkkjsdbvlikjkdb nfvjkbsdojkhvbd sovibfpjkj.mkv from IP 127.0.0.1
-[10-06-2026 12:36:58] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddys Sister Location Song-I Can’t Fix You(FNAFSL)-The Living Tombstone & Crusher-P.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:58] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/Five Nights at Freddy s 4 Song - I Got No Time (FNAF4) - The Living Tombstone.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:58] INFO     [Shaurya] (thumbnails.py) -> C++ binary finished processing. Thumbnails successfully saved to: C:\Users\Shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\thumbnails
-[10-06-2026 12:36:59] INFO     [Shaurya] (routes.py) -> Network Hit: HEAD /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 12:36:59] INFO     [Shaurya] (routes.py) -> Network Hit: GET /thumbnail/Videos/The Living Tombstone - Join Us for a Bite Remix.mp4 from IP 127.0.0.1
-[10-06-2026 13:14:53] INFO     [System] (run.py) -> Server started successfully
-[10-06-2026 13:14:54] INFO     [System] (run.py) -> Server started successfully
+[21-10-2026 15:26:45] INFO     [System] (run.py) -> Creating flask application
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> config.json read successfully
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Initializing flask login manager
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> flask login manager initialized successfully
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Registering routes in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
+[21-10-2026 15:26:45] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
+[21-10-2026 15:26:45] INFO     [System] (run.py) -> flask application created successfully
+[21-10-2026 15:26:45] INFO     [System] (run.py) -> Starting Server
+[21-10-2026 15:26:46] INFO     [System] (run.py) -> Creating flask application
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> config.json read successfully
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Initializing flask login manager
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> flask login manager initialized successfully
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Registering routes in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
+[21-10-2026 15:26:46] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
+[21-10-2026 15:26:46] INFO     [System] (run.py) -> flask application created successfully
+[21-10-2026 15:26:46] INFO     [System] (run.py) -> Starting Server
+[21-10-2026 15:26:46] WARNING  [System] (_internal.py) ->  * Debugger is active!
+[21-10-2026 15:28:36] INFO     [Shaurya] (routes.py) -> Network Hit: GET /Home/ from IP 127.0.0.1
+[21-10-2026 15:28:36] DEBUG    [Shaurya] (routes.py) -> Loading NAS storage view for target path: 'C:\Users\shaur\Desktop\Projects\OmniStack Projects\NAS-Server\NAS_Files\Home'
+[21-10-2026 15:30:30] INFO     [System] (run.py) -> Server started successfully
+[21-10-2026 15:30:30] INFO     [System] (run.py) -> Server started successfully
+[22-10-2026 11:59:16] INFO     [System] (run.py) -> Creating flask application
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> config.json read successfully
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> Initializing flask login manager
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> flask login manager initialized successfully
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
+[22-10-2026 11:59:16] DEBUG    [System] (app.py) -> Registering routes in flask app
+[22-10-2026 11:59:17] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
+[22-10-2026 11:59:17] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
+[22-10-2026 11:59:17] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
+[22-10-2026 11:59:17] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
+[22-10-2026 11:59:17] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
+[22-10-2026 11:59:17] INFO     [System] (run.py) -> flask application created successfully
+[22-10-2026 11:59:17] INFO     [System] (run.py) -> Starting Server
+[22-10-2026 11:59:18] INFO     [System] (run.py) -> Creating flask application
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> config.json read successfully
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Initializing flask login manager
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> flask login manager initialized successfully
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Registering routes in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
+[22-10-2026 11:59:18] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
+[22-10-2026 11:59:18] INFO     [System] (run.py) -> flask application created successfully
+[22-10-2026 11:59:18] INFO     [System] (run.py) -> Starting Server
+[22-10-2026 11:59:18] WARNING  [System] (_internal.py) ->  * Debugger is active!
+[22-10-2026 12:01:40] INFO     [System] (run.py) -> Server started successfully
+[22-10-2026 12:01:40] INFO     [System] (run.py) -> Server started successfully
+[22-10-2026 12:01:43] INFO     [System] (run.py) -> Creating flask application
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> config.json read successfully
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Initializing flask login manager
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> flask login manager initialized successfully
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Registering routes in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
+[22-10-2026 12:01:43] INFO     [System] (file_manager.py) -> File Not Found: failed_login.attempts.json not found, creating the file...
+[22-10-2026 12:01:43] INFO     [System] (file_manager.py) -> failed_login_attempts.json file created successfully
+[22-10-2026 12:01:43] INFO     [System] (file_manager.py) -> File Not Found: timed_out_ips.json not found, creating the file...
+[22-10-2026 12:01:43] INFO     [System] (file_manager.py) -> timed_out_ips.json file created successfully
+[22-10-2026 12:01:43] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
+[22-10-2026 12:01:43] INFO     [System] (run.py) -> flask application created successfully
+[22-10-2026 12:01:43] INFO     [System] (run.py) -> Starting Server
+[22-10-2026 12:01:44] INFO     [System] (run.py) -> Creating flask application
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Reading config.json for SECRET_KEY and ROOT_PATH
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> config.json read successfully
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Initializing SQLite database in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> SQLite database initialized successfully in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Initializing flask login manager
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> flask login manager initialized successfully
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Initializing Bcrypt in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Bcrypt initialized successfully in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Registering routes in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Routes registered successfully in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Initializing Migrage object of flask_migrate in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Migrate object of flask migrate initialized successfully in flask app
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Making default folder structure in ROOT_PATH
+[22-10-2026 12:01:44] DEBUG    [System] (app.py) -> Default folder structure successfully made in ROOT_PATH
+[22-10-2026 12:01:44] INFO     [System] (run.py) -> flask application created successfully
+[22-10-2026 12:01:44] INFO     [System] (run.py) -> Starting Server
+[22-10-2026 12:01:44] WARNING  [System] (_internal.py) ->  * Debugger is active!
+[22-10-2026 12:24:23] INFO     [System] (run.py) -> Server started successfully
+[22-10-2026 12:24:23] INFO     [System] (run.py) -> Server started successfully

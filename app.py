@@ -42,7 +42,7 @@ def create_app():
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///users.db"
     app.config["SESSION_COOKIE_SAMESITE"] = "Strict"
     app.config["SESSION_COOKIE_HTTPONLY"] = True
-    #app.config["SESSION_COOKIE_SECURE"] = True
+    app.config["SESSION_COOKIE_SECURE"] = True
     db.init_app(app)
     csrf.init_app(app)
     logging.debug("SQLite database initialized successfully in flask app")

@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, send_file
-from flask_login import login_user, logout_user, login_required
+from flask_login import login_user, logout_user, login_required, current_user
 from models import User
 from flask_bcrypt import Bcrypt
 from auth import login_manager
@@ -20,7 +20,13 @@ def register_routes(app: Flask, bcrypt: Bcrypt):
 
     @app.route("/")
     def index():
-        return render_template("index.html")
+
+        # Redirect the user to the login page, if the user is not already logged in
+        # and have visited the homepage of the site
+        if current_user.is_authenticated:
+            return render_template("index.html")
+        else:
+            return redirect(url_for("login"))
     
 
     @app.route("/login", methods=["GET", "POST"])
@@ -144,7 +150,7 @@ def register_routes(app: Flask, bcrypt: Bcrypt):
             if video_thumbnail_path.exists():
                 return send_file(video_thumbnail_path, mimetype="image/jpeg")
             else:
-                logging.debug(f"JS requested for thumbnail '{video_thumbnail_filename}' which was NOT FOUND!")
+                # logging.debug(f"JS requested for thumbnail '{video_thumbnail_filename}' which was NOT FOUND!")    This line is commented so that it doesn't spam in the logs when the browser polls, only uncomment it during debugging
                 return "Thumbnail is being processed", 202
 
     @app.route("/upload", methods=["POST"])

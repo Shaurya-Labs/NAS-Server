@@ -4,4 +4,10 @@ test.py
 instance/
 migrations/
 NAS_Files/*/
-venv/
+.venv/
+.vscode/
+static/CSS/base.css
+templates/create_new_user.html
+suggestions(not to be tracked)/*
+instance/*
+reset_password.py
