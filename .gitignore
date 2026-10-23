@@ -1,0 +1,14 @@
+__pycache__/
+config/config.json
+test.py
+instance/
+NAS_Files/*/
+.venv/
+.vscode/
+static/CSS/base.css
+templates/create_new_user.html
+suggestions(not to be tracked)/*
+logs/*
+auth/auth.lock
+auth/*.json
+cpp_utils/*.exe
