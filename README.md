@@ -1,5 +1,4 @@
 # NAS-SERVER
----
 
 A lightweight, self-hosted Network Attached Storage (NAS) full-stack web application built with **Flask** and **native C++ background worker** for asynchronous video processing.
 
@@ -19,9 +18,9 @@ A lightweight, self-hosted Network Attached Storage (NAS) full-stack web applica
 
 ## Prerequisites
 
-- FFmpeg should be installed and added to your system `PATH` (windows/linux) for the video generation C++ worker to work.
+- **FFmpeg** should be installed and added to your system `PATH` (windows/linux) for the video generation C++ worker to work.
 
-- A free threaded Python3 installation is recommended, the code would work without free threaded python installation also but a Python3 installation is mandatory.
+- A **free threaded Python3** installation is recommended, the code would work without free threaded python installation also but a Python3 installation is mandatory.
 
 ## Getting Started
 
@@ -80,6 +79,7 @@ Copy `config/config.json.example` to `config/config.json` in the `config/` direc
 flask db upgrade
 ```
 
+> [!NOTE]
 > **Change the default username and password** by editing the `username` and `password` variables in `create_new_user.py` file, the default username is "default" and the default password is "default"
 
 - Windows:
