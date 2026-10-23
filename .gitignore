@@ -12,3 +12,4 @@ logs/*
 auth/auth.lock
 auth/*.json
 cpp_utils/*.exe
+templates/index.html

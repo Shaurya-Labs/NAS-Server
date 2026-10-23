@@ -22,9 +22,11 @@ def register_routes(app: Flask, bcrypt: Bcrypt):
     def index():
 
         # Redirect the user to the login page, if the user is not already logged in
-        # and have visited the homepage of the site
+        # and have visited the homepage of the site, if the user is already logged in
+        # then redirect the user to the home page
         if current_user.is_authenticated:
-            return render_template("index.html")
+            # return render_template("index.html")
+            return redirect(url_for("Home"))
         else:
             return redirect(url_for("login"))
     
