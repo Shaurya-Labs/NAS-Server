@@ -1,6 +1,6 @@
 # NAS-SERVER
 
-A lightweight, self-hosted Network Attached Storage (NAS) full-stack web application built with **Flask** and **native C++ background worker** for asynchronous video processing.
+A lightweight, self-hosted Network Attached Storage (NAS) full-stack web application built with **Flask** to store, manage, and access your files from your own hardware.
 
 ## Key Features
 
