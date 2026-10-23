@@ -1,4 +1,4 @@
-# NAS-SERVER
+# NAS-Server
 
 A lightweight, self-hosted Network Attached Storage (NAS) full-stack web application built with **Flask** to store, manage, and access your files from your own hardware.
 
