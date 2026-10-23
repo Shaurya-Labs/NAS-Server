@@ -82,8 +82,8 @@ A lightweight, self-hosted Network Attached Storage (NAS) full-stack web applica
    flask db upgrade
    ```
 
-   > [!NOTE]
-   > **Change the default username and password** by editing the `username` and `password` variables in `create_new_user.py` file, the default username is "default" and the default password is "default"
+> [!NOTE]
+> **Change the default username and password** by editing the `username` and `password` variables in `create_new_user.py` file, the default username is "default" and the default password is "default"
 
    - Windows:
      ```bash
